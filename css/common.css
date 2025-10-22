@@ -1,0 +1,45 @@
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    color: #1d1d1d;
+}
+
+header, footer {
+    width: 100%;
+    padding: 0 250px;
+}
+
+.container {
+    width: 80vw;
+    /* background-color: wheat; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* media 1280 start */
+
+@media screen and (max-width:1280px) {
+    
+    header, footer {
+        padding: 0 16px;
+    }
+
+    .container {
+        width: 90vw;
+    }
+
+
+}
+
+/* media 1280 end */
+
+/* media 860 start */
+
+@media screen and (max-width:860px) {
+
+    .container {
+        width: 100%;
+        padding: 0 16px;
+    }
+    
+}
